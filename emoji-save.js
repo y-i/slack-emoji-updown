@@ -4,7 +4,7 @@ const request = require('request-promise-native');
 dotenv.config();
 
 const dirName = process.env.DIRNAME;
-const apiToken = process.env.API_TOKEN;
+const apiToken = process.env.DOWNLOAD_SLACK_TOKEN;
 
 (async () => {
     try {
